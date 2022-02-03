@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="629.0" prefWidth="1005.0" styleClass="table" stylesheets="@styleSample.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Mybooking">
+    <children>
+        <Pane layoutX="53.0" layoutY="14.0" prefHeight="81.0" prefWidth="900.0">
+            <children>
+                <Label layoutX="20.0" layoutY="22.0" text="BangladeshTravels" textFill="WHITE">
+                    <font>
+                        <Font name="Broadway" size="26.0" />
+                    </font>
+               <effect>
+                  <DropShadow />
+               </effect>
+                </Label>
+                <Label layoutX="400.0" layoutY="27.0" text="My Current Bookings" textFill="WHITE">
+                    <font>
+                        <Font name="System Bold" size="15.0" />
+                    </font>
+               <effect>
+                  <DropShadow>
+                     <color>
+                        <Color red="1.0" />
+                     </color>
+                  </DropShadow>
+               </effect>
+                </Label>
+                <Hyperlink fx:id="back" layoutX="784.0" layoutY="20.0" onAction="#back_" styleClass="darkblue1" text="Back" textFill="WHITE">
+                    <font>
+                        <Font name="System Bold" size="12.0" />
+                    </font>
+                </Hyperlink>
+                <Hyperlink fx:id="delete" layoutX="689.0" layoutY="20.0" onAction="#delete" styleClass="darkblue1" text="Log Out" textFill="WHITE">
+                    <font>
+                        <Font name="System Bold" size="12.0" />
+                    </font>
+                </Hyperlink>
+            </children>
+        </Pane>
+        <TableView fx:id="table" layoutX="130.0" layoutY="120.0" prefHeight="434.0" prefWidth="773.0" styleClass="mercedes">
+            <columns>
+                <TableColumn fx:id="name" prefWidth="108.0" text="Bus" />
+                <TableColumn fx:id="phone" prefWidth="94.0" text="Seat Booked" />
+                <TableColumn fx:id="source" prefWidth="89.0" text="Journey Date" />
+                <TableColumn fx:id="destination" minWidth="9.0" prefWidth="104.0" text="From" />
+                <TableColumn fx:id="service" prefWidth="103.0" text="Destination" />
+                <TableColumn fx:id="date" prefWidth="69.0" text="Departure" />
+                <TableColumn fx:id="seats" prefWidth="81.0" text="Arrival" />
+                <TableColumn fx:id="amount" prefWidth="125.0" text="User" />
+            </columns>
+         <effect>
+            <DropShadow height="67.9" radius="25.39" width="35.66" />
+         </effect>
+        </TableView>
+    </children>
+</AnchorPane>
