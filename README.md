@@ -10,7 +10,7 @@ Users Can:\
 	Search bus\
 	Select bus, see available and book seats, select seats\
 	Pay by two payment methods\
-	View current booking
+	View current bookings
 
 
 Admin Can:\
