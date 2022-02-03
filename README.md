@@ -17,4 +17,8 @@ Admin Can:\
 	Add new bus\
 	View Booking History
 
+
+![image](https://user-images.githubusercontent.com/87283264/152427678-de289d9b-3386-4237-a3cd-239a1f8faab4.png)
+
+
 ![image](https://user-images.githubusercontent.com/87283264/152426822-e81affd3-584e-447b-91e5-2206872a30c5.png)
