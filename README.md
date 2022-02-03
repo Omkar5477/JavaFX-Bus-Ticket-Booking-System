@@ -15,6 +15,6 @@ Users Can:\
 
 Admin Can:\
 	Add new bus\
-	View Booking History\
+	View Booking History
 
 ![image](https://user-images.githubusercontent.com/87283264/152426822-e81affd3-584e-447b-91e5-2206872a30c5.png)
