@@ -3,14 +3,14 @@
 Bus Ticket Booking System with-\
 •	JavaFX\
 •	MySQL\
-•	Scene Builder\
+•	Scene Builder
 
 Users Can:\
 	Login and Signup\
 	Search bus\
 	Select bus, see available and book seats, select seats\
 	Pay by two payment methods\
-	View current booking\
+	View current booking
 
 
 Admin Can:\
