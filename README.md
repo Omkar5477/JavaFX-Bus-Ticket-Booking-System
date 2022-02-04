@@ -15,7 +15,7 @@ Users Can:\
 
 Admin Can:\
 	Add new bus\
-	View Booking History\
+	View Booking History
 
 YouTube: https://youtu.be/-iPe0J2WCXY
 
